@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/projeto-organograma/static/css/main.8148947f.css",
+    "main.js": "/projeto-organograma/static/js/main.76b05071.js",
+    "index.html": "/projeto-organograma/index.html",
+    "main.8148947f.css.map": "/projeto-organograma/static/css/main.8148947f.css.map",
+    "main.76b05071.js.map": "/projeto-organograma/static/js/main.76b05071.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8148947f.css",
+    "static/js/main.76b05071.js"
+  ]
+}
