@@ -25,7 +25,7 @@ A aplicação permite que um usuário adicione novos membros à equipe, especifi
 O projeto está disponível para visualização e interação através do GitHub Pages.
 
 <p align="center">
-  <a href="https://[SEU-USUARIO-DO-GITHUB].github.io/[NOME-DO-SEU-REPOSITORIO]/" target="_blank">
+  <a href="https://[edson66].github.io/[projeto-organograma]/" target="_blank">
     <img alt="Deploy" src="https://img.shields.io/badge/Acessar_Projeto-000000?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
 </p>
@@ -49,10 +49,10 @@ Em seguida, siga os passos abaixo no seu terminal:
 
 ```bash
 # 1. Clone este repositório
-$ git clone [https://github.com/](https://github.com/)[SEU-USUARIO-DO-GITHUB]/[NOME-DO-SEU-REPOSITORIO].git
+$ git clone [https://github.com/](https://github.com/)[edson66]/[projeto-organograma].git
 
 # 2. Navegue até a pasta do projeto
-$ cd [NOME-DO-SEU-REPOSITORIO]
+$ cd [projeto-organograma]
 
 # 3. Instale as dependências necessárias
 $ npm install
