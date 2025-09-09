@@ -1,30 +1,30 @@
 import { useState } from "react"
 import Botao from "../Botao"
 import CampoTexto from "../CampoTexto"
-import Lista_opcoes from "../Lista_Opc"
 import "./Form.css"
+import ListaOpc from "../ListaOpc"
 
 
 
 const Form = (props) => {
 
     const [nome,setNome] = useState('')
-    const [endereco,setEndereco] = useState('')
+    const [posicao,setPosicao] = useState('')
     const [imagem,setImagem] = useState('')
-    const [lista,setLista] = useState('Programação')
+    const [lista,setLista] = useState('')
 
     function aoclicar(evento){
         evento.preventDefault();
         props.cadastro({
             nome,
-            endereco,
+            posicao,
             imagem,
             lista
         })
         setNome('');
-        setEndereco("");
+        setPosicao("");
         setImagem("");
-        setLista('')
+        setLista('');
     }   
 
     return(
@@ -40,21 +40,21 @@ const Form = (props) => {
                 />
 
                 <CampoTexto 
-                setX = {setEndereco} 
-                valor = {endereco} 
+                setX = {setPosicao} 
+                valor = {posicao} 
                 obrigatorio = {true} 
-                label="Numero" 
-                placeholder="Digite seu numero"
+                label="Cargo" 
+                placeholder="Digite sua posição"
                 />
 
                 <CampoTexto 
                 setX = {setImagem} 
                 valor = {imagem} 
                 obrigatorio = {true} 
-                label="Endereço" 
-                placeholder="Digite seu Endereço"
+                label="Imagem" 
+                placeholder="Digite um endereço para uma imagem sua"
                 />  
-                <Lista_opcoes 
+                <ListaOpc
                 label= "Time" 
                 itens = {props.times}
                 valor = {lista}

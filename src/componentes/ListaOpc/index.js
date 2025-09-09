@@ -10,6 +10,7 @@ const Lista_opcoes = (props) => {
         <div className="Lista">
             <label>{props.label}</label>
             <select onChange={aoescolher} value={props.valor}>
+                <option value = ""></option>
                 {props.itens.map(item => {
                     return (
                         <option key={item}>{item}</option>
