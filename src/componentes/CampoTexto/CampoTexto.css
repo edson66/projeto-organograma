@@ -1,0 +1,16 @@
+.cptexto{
+    margin: 24px 0;
+}
+
+.cptexto label{
+    display: block;
+}
+
+.cptexto input{
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.1);
+    border: none;
+}

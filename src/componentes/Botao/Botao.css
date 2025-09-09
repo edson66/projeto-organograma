@@ -1,0 +1,9 @@
+.botao button{
+    background-color: rgb(68, 78, 172);
+    border: navajowhite;
+    border-radius: 8px;
+    margin: 16px 0;
+    padding: 1em;
+    color: white;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.3);
+}
