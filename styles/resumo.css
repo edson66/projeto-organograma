@@ -1,0 +1,251 @@
+.resumo__textos{
+    font-family: var(--fonte-textos);
+    margin: 30px 15px 0 15px;
+}
+
+.resumo__textos h3{
+    color: var(--cor-terciaria);
+    
+}
+
+.resumo__textos h2{
+    font-size: 1.3rem;
+}
+
+.resumo__textos p{
+    font-weight: 400;
+    color: rgb(199, 198, 198);
+}
+
+.resumo__textos a{
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    font-weight: 700;
+}
+
+.cards__resumo{
+    margin-top: 50px;
+}
+
+.card{
+    text-align: start;
+    align-items: start;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 8px 4px rgba(0,0,0,0.4);
+}
+
+.card:last-child{
+    margin-bottom: 150px;
+}
+
+.card p{
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+}
+
+.qualidades{
+    display: flex;
+    gap: 10px;
+    color: rgb(199, 198, 198);
+    text-align: center;
+}
+
+.qualidades p{
+    font-family: var(--fonte-textos);
+    font-size: 0.8rem;
+    background-color: var(--cor-principal);
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid rgb(46, 46, 46);
+}
+
+.pontos__chave{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ponto__chave div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixinha{
+    background-color: var(--cor-principal);
+    width: 20px;
+    padding: 5px 0;
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.ponto__chave h2{
+    font-family: var(--fonte-textos);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.ponto__chave p{
+    font-family: var(--fonte-textos);
+    font-size: 0.9rem;
+    color: rgb(199, 198, 198);
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.botoes a{
+    color: white;
+    font-family: var(--fonte-textos);
+    font-size: 0.9rem;
+    padding: 15px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.botao1{
+    background-color: #e50914;
+    width: 100px;
+    box-shadow: 2px 5px 10px 4px rgba(229, 9, 20, 0.35);
+}
+
+.botao1:hover{
+    margin-bottom: 2px;
+}
+
+.botao2{
+    border: 1px solid rgb(59, 59, 59);
+    width: 150px;
+}
+
+.botao2:hover{
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.texto__final{
+    color:rgb(199, 198, 198) ;
+}
+
+.conteiner__marcos{
+    position: relative;
+    padding-left: 15px;
+    border-left: solid 1px rgb(199, 198, 198);
+    margin: 30px 0;
+}
+
+.conteiner__marcos h4{
+    font-family: var(--fonte-textos);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.conteiner__marcos p{
+    color: rgb(199, 198, 198);
+    margin-bottom: 20px;
+}
+
+.rodela,.rodela2{
+    position: absolute;
+    background-color: rgba(245, 58, 67, 0.5);
+    border-radius: 25px;
+}
+
+.rodela{
+    left: -11px;
+}
+
+.conteiner__marcos i{
+    font-size: 10px;
+    padding: 5px;
+}
+
+.disponivel{
+    display: flex;
+    position: relative;
+    background-color: var(--cor-principal);
+    padding: 1em;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+.rodela2{
+    left: 5px;
+}
+
+.rodela2 i{
+    font-size: 10px;
+    padding: 5px;    
+}
+
+.disponivel:last-child{
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px){
+    .resumo__textos h2{
+        font-size: 1.5rem;
+    }
+    
+    .card{
+        margin: 0 50px 30px 50px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .resumo__textos{
+        font-family: var(--fonte-textos);
+        margin: 30px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 1166px;
+    }
+
+    .cards__resumo{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+
+    .card{
+        margin: 0 80px;
+        height: 500px;
+    }
+
+    .card1{
+        width: 610px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .card2{
+        width: 456px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .resumo__textos h2{
+        font-size: 2rem;
+    }
+
+    .resumo__textos p{
+        max-width: 30%;
+    }    
+}

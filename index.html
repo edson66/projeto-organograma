@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Página inicial</title>
+    <link rel="icon" type="image/png" href="./assets/icone-logo.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div class="elementos__cabecalho ">
+                <div class="logo"> <img src="./assets/logo.png" alt="logo da página"> </div>
+                <nav class="ancoras ">
+                    <a href="./index.html">Home</a>
+                    <a href="./sobreMim.html">Sobre mim</a>
+                    <a href="./resumo.html">Resumo</a>
+                    <a href="./contato.html">Contato</a>
+                </nav>
+                <div class="menu__hamburguer ">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="pagina__inicial">
+            <div class="conteiner__texts">
+                <h3>Olá,Meu nome é</h3>
+                <h2>Edson Ulisses</h2>
+                <p>Sou estudante de Sistemas de Informação, desde sempre muito próximo à tecnologia e com vontade de transformar ideias em soluções. Nesta página você vai conhecer um pouco mais sobre minha trajetória, minhas ambições e onde quero chegar como desenvolvedor.</p>
+                <div class="show__more">
+                    <a href="./sobreMim.html">saber mais</a>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--cor-terciaria);"></i>
+                </div>
+                <div class="redes__sociais">
+                    <a href="https://github.com/edson66" target="_blank"> <img src="./assets/github.png" alt="logo github"> </a>
+                    <a href="https://www.instagram.com/edsonulissees" target="_blank">  <img src="./assets/instagram.png" alt="logo instagram"> </a>
+                    <a href="https://www.linkedin.com/in/edson-sobrinho-103657372" target="_blank">  <img src="./assets/linkedin.png" alt="logo linkedin"> </a>
+                </div>
+            </div>
+            <div class="conteiner__foto">
+                <div class="background__foto">
+                    <img src="./assets/me.png" alt="foto do desenvolvedor" class="foto__dev">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2>Um pouco do que posso fazer</h2>
+            <div class="cards">
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-html5" style="color: var(--cor-terciaria);"></i>
+                        <i class="fa-brands fa-css3-alt" style="color: var(--cor-terciaria);"></i>
+                        <i class="fa-brands fa-js" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Front-end (HTML, CSS e JavaScript)</h3>
+                    <p>Base sólida do desenvolvimento web. Estruturo páginas, aplico estilos modernos e adiciono interatividade com JavaScript.</p>
+                </div>
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-react" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>React</h3>
+                    <p>Construo componentes reutilizáveis e interfaces dinâmicas, aplicando conceitos do React para projetos práticos.</p>
+                </div>
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-git-alt" style="color: var(--cor-terciaria);"></i>
+                        <i class="fa-brands fa-github" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Git & GitHub</h3>
+                    <p>Organizo e versiono meus projetos com Git e GitHub, facilitando colaboração e histórico de código.</p>
+                </div>
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-solid fa-code" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Clean Code</h3>
+                    <p>Busco escrever código limpo, legível e fácil de manter, sempre priorizando boas práticas.</p>
+                </div>
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-solid fa-mobile-screen-button" style="color: var(--cor-terciaria);"></i>
+                        <i class="fa-solid fa-desktop" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Responsividade</h3>
+                    <p>Crio layouts que funcionam bem em qualquer dispositivo, garantindo uma boa experiência ao usuário.</p>
+                </div>                
+
+                <div>
+                    <section class="simbolos">
+                        <i class="fa-brands fa-java" style="color: var(--cor-terciaria);"></i>
+                    </section>
+                    <h3>Java (em breve)</h3>
+                    <p>Próxima etapa: aprofundar em back-end e construir aplicações robustas.</p>
+                </div>                                
+            </div>
+        </div>
+
+        <div class="trabalhos__recentes" id="recentes">
+            <h2>Projetos Recentes</h2>
+            <div class="menu__opcoes">
+                <p class="opc__web active" data-filter="web">web</p>
+                <p class="opc__python" data-filter="python">python</p>
+                <p class="opc__java" data-filter="java">java</p>
+            </div>
+
+            <div class="carrossel">
+                <div class="carrossel__viewport">
+                    <div class="carrossel__imagens">
+                        <div class="carrossel__slide" data-category="web">
+
+                            <div class="item">
+                                <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao com cuidado para replicar um serviço de streaming</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/react.png" alt="foto do projeto organograma">
+                                <div class="info">
+                                    <p>projeto organograma</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/react.png" alt="foto do projeto organograma">
+                                <div class="info">
+                                    <p>projeto organograma</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
+                            </div>                            
+
+                        </div>
+
+                        <div class="carrossel__slide" data-category="python">
+                            <div class="item">
+                                <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carrossel__slide" data-category="java">
+                            <div class="item">
+                                <img src="./assets/netflix.png" alt="foto do projeto réplica de um streaming">
+                                <div class="info">
+                                    <p>projeto netflix</p>
+                                    <div class="tip">
+                                        <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+                                        <span> projeto feito a mao</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer__inicial">
+        <section id="contato">
+                <h2>Entre em Contato!</h2>
+                <h3>Tem uma ideia, projeto ou oportunidade? Me envie uma mensagem.</h3>
+            <form class="formulario" id="formulario" action="https://formspree.io/f/mrbajoza" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="digite seu nome completo" required autocomplete="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required autocomplete="email">
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="8" placeholder="Escreva sua mensagem aqui..." required autocomplete="message"></textarea>
+
+                <button type="submit" id="submit">Enviar Mensagem</button>
+                <p id="status"></p>
+            </form>
+        </section>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
