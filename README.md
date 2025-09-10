@@ -52,7 +52,7 @@ Em seguida, siga os passos abaixo no seu terminal:
 $ git clone [https://github.com/](https://github.com/)[edson66]/[projeto-organograma].git
 
 # 2. Navegue até a pasta do projeto
-$ cd [projeto-organograma]
+$ cd [react-organograma]
 
 # 3. Instale as dependências necessárias
 $ npm install
